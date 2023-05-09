@@ -1,0 +1,28 @@
+2023-05-09 00:28:22,010 INFO Старт скрипта
+2023-05-09 00:28:22,011 INFO Файлы обнаружены
+2023-05-09 00:28:22,543 INFO Очистка таблиц в Stage:
+2023-05-09 00:28:22,610 INFO Таблица очищена skyeng.stg_transactions
+2023-05-09 00:28:22,642 INFO Таблица очищена skyeng.stg_terminals
+2023-05-09 00:28:22,676 INFO Таблица очищена skyeng.stg_passport_blacklist
+2023-05-09 00:28:22,708 INFO Таблица очищена skyeng.stg_accounts
+2023-05-09 00:28:22,741 INFO Таблица очищена skyeng.stg_cards
+2023-05-09 00:28:22,774 INFO Таблица очищена skyeng.stg_clients
+2023-05-09 00:28:22,806 INFO Таблица очищена skyeng.stg_accounts_del
+2023-05-09 00:28:22,839 INFO Таблица очищена skyeng.stg_cards_del
+2023-05-09 00:28:22,872 INFO Таблица очищена skyeng.stg_clients_del
+2023-05-09 00:28:28,476 INFO Загрузка данных из источника в STAGE:
+2023-05-09 00:28:28,476 INFO Заполнение skyeng.stg_course 
+2023-05-09 00:28:33,562 INFO Заполнение skyeng.stg_stream 
+2023-05-09 00:28:46,273 INFO Заполнение skyeng.stg_stream_module
+2023-05-09 00:28:47,312 INFO Заполнение skyeng.stg_stream_module_lessons
+2023-05-09 00:28:49,589 INFO Загрузка данных из STAGE в DETAIL:
+2023-05-09 00:28:49,640 INFO Скрипт выполнен stg_to_hub.sql
+2023-05-09 00:28:49,677 INFO Скрипт выполнен stg_to_satellite.sql
+2023-05-09 00:28:49,712 INFO Скрипт выполнен stg_to_link.sql',
+2023-05-09 00:28:49,748 INFO Скрипт выполнен update_satellite.sql
+2023-05-09 00:28:49,781 INFO Скрипт выполнен delete_satellite.sql
+2023-05-09 00:28:49,843 INFO Скрипт выполнен update_meta_inf.sql
+2023-05-09 00:28:49,843 INFO Загрузка данных в витрину:
+2023-05-09 00:28:50,021 INFO Скрипт выполнен frauds.sql
+2023-05-09 00:28:50,058 INFO Завершение скрипта
+
